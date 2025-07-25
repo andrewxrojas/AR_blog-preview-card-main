@@ -10,9 +10,9 @@ body {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-size: 16px;
     min-height: 100vh;
-    max-width: 50%;
+    display: grid;
+    place-items: center;
     
   }
 
@@ -34,7 +34,6 @@ body {
   
   img {
     border-radius: 5%;
-    max-width: 100%;
   }
 
   .date{
@@ -65,12 +64,8 @@ body {
 
   .card {
     background-color:hsl(0, 0%, 100%);
-    border-radius: 20px;
-    margin: 20%;
-    padding: 2%;
+    border-radius: 20px;;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    width: 100%;
-
     }
 
     @media (max-width: 374px) {
